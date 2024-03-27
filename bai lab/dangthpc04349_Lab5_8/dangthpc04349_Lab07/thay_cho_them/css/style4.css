@@ -1,0 +1,45 @@
+body {
+    background-color: #dcdde1;
+    margin: 20px 40px;
+}
+
+nav {
+    line-height: 50px;
+    background-color: gray;
+    padding: 0 100px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.box div {
+    background-color: gray;
+    line-height: 100px;
+    width: 22%;
+    text-align: center;
+}
+
+.box2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.box2 div {
+    background-color: gray;
+    line-height: 100px;
+    width: 30%;
+    text-align: center;
+}
+
+footer {
+    background-color: gray;
+    line-height: 50px;
+    text-align: center;
+}

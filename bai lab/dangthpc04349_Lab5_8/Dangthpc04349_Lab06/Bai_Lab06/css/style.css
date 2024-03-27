@@ -1,0 +1,68 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+.container .menu {
+    background-color: rgba(128, 128, 128, 0.651);
+    float: right;
+    width: 30%;
+    padding: 0px 0px 50px 0px;
+}
+
+.container>nav {
+    line-height: 40px;
+    font-size: 20px;
+    background-color: rgb(201, 115, 10);
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+article {
+    width: 70%;
+    float: left;
+}
+
+.container>aside {
+    min-height: 400px;
+    width: 25%;
+    background-color: lightgray;
+    float: right;
+}
+
+.container>footer {
+    border-top: 5px double orangered;
+    line-height: 50px;
+    background-color: lightcyan;
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+}
+
+.container>nav>a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+.container>nav>a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.container>aside>ul>li>a {
+    color: darkblue;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+iframe[name=page] {
+    width: 100px;
+    height: 400px;
+}

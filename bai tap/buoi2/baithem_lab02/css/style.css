@@ -1,0 +1,32 @@
+h1 {
+    color: #006600;
+    align: center;
+}
+
+.cadoan {
+    background-color: #FFFFCC;
+}
+
+h2 {
+    color: blue;
+    text-align: left;
+}
+
+.ten {
+    align: center;
+    color: palevioletred;
+    background-color: #FECFFD;
+}
+
+.doan1 {
+    align: center;
+    color: blue;
+}
+
+.doan2 {
+    color: brown;
+}
+
+.doan3 {
+    color: green;
+}

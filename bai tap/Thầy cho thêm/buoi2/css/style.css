@@ -1,0 +1,20 @@
+h1 {
+    text-align: center;
+    color: yellow;
+}
+
+p {
+    text-align: justify;
+    padding: 20px;
+}
+
+.cadoan {
+    color: #fff;
+    background-color: #A06D21;
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/img1.jpg');
+    background-size: 30% 40%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}

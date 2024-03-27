@@ -1,0 +1,55 @@
+body {
+    background-color: #dcdde1;
+    margin: 20px 40px;
+    color: white;
+}
+
+.container>header {
+    background-color: rgb(26, 185, 132);
+    line-height: 100px;
+    margin-top: 5px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.nd {
+    display: flex;
+}
+
+.left {
+    flex: 20%;
+    background-color: lightgreen;
+    line-height: 300px;
+    margin-top: 5px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.right {
+    flex: 70%;
+    background-color: rgb(187, 104, 9);
+    line-height: 300px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.khung {
+    border: none;
+    background-color: rgb(243, 217, 67);
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.container>footer {
+    background-color: rgb(26, 185, 132);
+    line-height: 50px;
+    margin-top: 5px;
+    padding-left: 20px;
+    text-align: center;
+}

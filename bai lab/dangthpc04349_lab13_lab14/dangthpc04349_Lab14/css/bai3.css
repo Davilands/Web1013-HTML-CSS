@@ -1,0 +1,100 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+}
+
+.container>header {
+    background-image: url('../images/banner.jpg');
+    background-size: 100% 100%;
+    padding-bottom: 25%;
+}
+
+header>.top-left {
+    position: relative;
+    top: 270px;
+    left: 40px;
+}
+
+hr {
+    width: 270px;
+    position: absolute;
+    left: 40px;
+}
+
+.td {
+    font-size: 50px;
+    font-weight: 900;
+    font-variant: small-caps;
+    color: white;
+    text-shadow: 0 0 15px orangered;
+}
+
+.nd {
+    font-variant: small-caps;
+    font-size: 20px;
+    color: orangered;
+    position: relative;
+    left: 75px;
+    bottom: -20px;
+}
+
+header>.top-right {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    line-height: 50px;
+    border-bottom-left-radius: 30px;
+    background-color: orangered;
+    box-shadow: 0 0 5px orangered;
+}
+
+.top-right>a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.top-right>a:hover,
+.right .r1:hover,
+.right .r2:hover {
+    color: orangered;
+    background-color: aliceblue;
+}
+
+.container>nav {
+    font-size: 20px;
+    line-height: 40px;
+    background-color: orangered;
+    color: white;
+    font-variant: small-caps;
+}
+
+.container>nav>span>a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav>span>a:hover {
+    color: orangered;
+    background-color: aliceblue;
+}
+
+nav>.right {
+    position: absolute;
+    right: 0;
+}
+
+.right .r1 {
+    position: relative;
+    right: 50px;
+}
+
+.right .r2 {
+    position: relative;
+    right: 20px;
+}

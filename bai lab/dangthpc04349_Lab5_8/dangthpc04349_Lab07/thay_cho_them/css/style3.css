@@ -1,0 +1,47 @@
+body {
+    background-color: #dcdde1;
+    margin: 20px 40px;
+}
+
+nav {
+    background-color: gray;
+    line-height: 50px;
+    padding-left: 20px;
+}
+
+.ND {
+    display: flex;
+}
+
+.left {
+    background-color: white;
+    line-height: 200px;
+    margin-top: 5px;
+    margin-right: 5px;
+    flex: 20%;
+}
+
+.right {
+    flex: 70%;
+}
+
+.head {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    line-height: 100px;
+    background-color: gray;
+    text-align: center;
+}
+
+.body {
+    line-height: 250px;
+    background-color: gray;
+    text-align: center;
+}
+
+footer {
+    background-color: gray;
+    line-height: 50px;
+    margin-top: 5px;
+    text-align: center;
+}

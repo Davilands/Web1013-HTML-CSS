@@ -1,0 +1,36 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    flex: 30%;
+}
+
+aside img {
+    width: 125%;
+    margin: 5px 30px;
+}
+
+article {
+    flex: 130%;
+}
+
+iframe[name=page] {
+    margin: 0;
+    width: 100%;
+    min-height: 500px;
+}
+
+.tien-ich {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,47 @@
+.container {
+    margin: 50px;
+    height: 550px;
+    background-color: blue;
+    padding: 10px 10px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+}
+
+.hinh1 {
+    min-height: 100px;
+    align-self: flex-start;
+    width: 20%;
+    background-color: black;
+}
+
+.hinh2 {
+    min-height: 200px;
+    width: 20%;
+    background-color: black;
+    align-self: flex-end;
+}
+
+.hinh3 {
+    align-self: flex-start;
+    min-height: 100px;
+    width: 20%;
+    background-color: black;
+}
+
+.buttom {
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.hinh4 {
+    margin-top: 40px;
+    min-height: 50px;
+    width: 640px;
+    background-color: black;
+    align-self: center;
+}

@@ -1,0 +1,40 @@
+aside ul li {
+    border: 1px solid tomato;
+    box-shadow: 0px 1px 2px black;
+}
+
+aside ul li a {
+    color: orangered;
+}
+
+aside ul {
+    list-style-image: url(../images/bh.gif);
+}
+
+aside {
+    float: left;
+    width: 100%;
+    right: 0px;
+    color: tomato;
+}
+
+.menu {
+    right: 10px;
+    top: 0px;
+    float: left;
+}
+
+ul {
+    padding-right: 5px;
+}
+
+a {
+    font-variant: small-caps;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+aside {
+    height: 500px;
+}

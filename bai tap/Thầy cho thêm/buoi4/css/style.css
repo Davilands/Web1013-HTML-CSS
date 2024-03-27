@@ -1,0 +1,19 @@
+h1 {
+    color: green;
+    text-align: center;
+}
+
+span {
+    color: red;
+}
+
+.noidung {
+    line-height: 1px;
+    font-weight: 10px;
+}
+
+pre {
+    font-style: both;
+    background-color: #CCCC;
+    color: #0000CC;
+}

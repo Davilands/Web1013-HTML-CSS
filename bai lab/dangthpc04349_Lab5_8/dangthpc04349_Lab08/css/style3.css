@@ -1,0 +1,149 @@
+body {
+    padding: opx;
+    margin: 0px;
+    position: relative;
+}
+
+.container {
+    margin: 0px auto;
+}
+
+.container header {
+    background-image: url(../images/hinh.jpg);
+    background-size: 100% 100%;
+    height: 100px;
+    padding-bottom: 25%;
+    position: relative;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.phai {
+    position: absolute;
+    right: 10px;
+    top: 0px;
+}
+
+.top-right {
+    border-bottom-left-radius: 30px;
+    background-color: orangered;
+    float: right;
+    box-shadow: 1px 10px 15px white;
+}
+
+ul {
+    padding-right: 5px;
+}
+
+.container .company {
+    font-variant: small-caps;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+}
+
+.menu ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.menu ul li a {
+    display: block;
+}
+
+.menu ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: orangered;
+    text-align: center;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding: 0px 10px;
+    line-height: 40px;
+}
+
+.menu ul li a:hover {
+    color: yellowgreen;
+}
+
+.menu ul ul {
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0px 0px 1px gray;
+}
+
+.menu ul ul a {
+    display: block;
+    line-height: 30px;
+    color: tomato;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0px 10px;
+}
+
+.menu ul li:hover ul {
+    display: block;
+    background-color: white;
+}
+
+.menu ul ul a:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.container aside {
+    width: 100%;
+    position: absolute;
+    right: 0px;
+    color: tomato;
+    border: 1px solid tomato;
+}
+
+aside ul li {
+    border: 1px solid tomato;
+    box-shadow: 0px 1px 2px black;
+}
+
+aside ul li a {
+    color: orangered;
+}
+
+aside ul {
+    list-style-image: url(../images/bh.gif);
+}
+
+.container footer {
+    border-top: 5px double orangered;
+    line-height: 50px;
+    background-color: lightcyan;
+    text-align: center;
+    font-variant: small-caps;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+.company ul li {
+    list-style: none;
+}
+
+aside {
+    height: 500px;
+}

@@ -1,0 +1,55 @@
+body {
+    background-color: #dcdde1;
+    margin: 20px 40px;
+}
+
+.top {
+    background-color: gray;
+    line-height: 50px;
+    padding-left: 20px;
+}
+
+.navigation {
+    background-color: gray;
+    line-height: 30px;
+    margin-top: 5px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.container>header {
+    background-color: gray;
+    line-height: 100px;
+    margin-top: 5px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.nd {
+    display: flex;
+}
+
+.left {
+    flex: 20%;
+    background-color: gray;
+    line-height: 300px;
+    margin-top: 5px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.right {
+    flex: 70%;
+    background-color: gray;
+    line-height: 300px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.container>footer {
+    background-color: gray;
+    line-height: 50px;
+    margin-top: 5px;
+    padding-left: 20px;
+    text-align: center;
+}

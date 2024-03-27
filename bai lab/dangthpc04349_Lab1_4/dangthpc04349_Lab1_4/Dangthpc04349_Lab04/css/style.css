@@ -1,0 +1,110 @@
+b {
+    color: brown;
+}
+
+.doan1 {
+    color: red;
+}
+
+.doan2 {
+    color: blue;
+}
+
+.doan3 {
+    color: green;
+}
+
+.cadoan {
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+.bai1>h2 {
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 5px red;
+}
+
+img {
+    width: 300px;
+}
+
+img.cen {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    width: 500px;
+}
+
+.menu {
+    text-align: center;
+    font-size: 20px;
+}
+
+.menu>a {
+    font-variant: small-caps;
+    color: blue;
+    text-decoration: none;
+}
+
+.menu>a:visited {
+    color: green;
+}
+
+.menu>a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+
+/* phần bài tập thêm */
+
+.tieude>h2 {
+    text-align: center;
+    color: orange;
+    border-style: double;
+}
+
+.baithem>.doan1>span {
+    font-size: 60px;
+    color: red;
+    font-family: Stencil Std, fantasy;
+}
+
+.baithem>.doan1>u>b {
+    color: black;
+}
+
+.baithem>.doan1 {
+    color: black;
+}
+
+.baithem>.benthuonghai {
+    color: white;
+    font-size: 20px;
+    text-align: right;
+    background-color: orange;
+    margin: 20px 0 40px 0;
+}
+
+.baithem>.doan2 {
+    color: black;
+    text-align: right;
+}
+
+.baithem>.doan2>span {
+    font-size: 60px;
+    color: red;
+    font-family: Stencil Std, fantasy;
+}
+
+.baithem>.doan2>b {
+    color: red;
+}

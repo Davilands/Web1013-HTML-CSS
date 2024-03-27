@@ -1,0 +1,9 @@
+h1 {
+    margin-bottom: 490px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+a:hover {
+    color: red;
+}
